@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ea5c196df5f2484b917ebf1cc27bdfc9" Name="Diagram1">
+        <EntityTypeShape EntityType="DbMvcProjeModel.TblDersler" Width="1.5" PointX="5" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbMvcProjeModel.TblKulupler" Width="1.5" PointX="0.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbMvcProjeModel.TblNotlar" Width="1.5" PointX="7.125" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbMvcProjeModel.TblOgrenciler" Width="1.5" PointX="2.875" PointY="0.5" IsExpanded="true" />
+        <AssociationConnector Association="DbMvcProjeModel.FK_TblNotlar_TblDersler" ManuallyRouted="false" />
+        <AssociationConnector Association="DbMvcProjeModel.FK_TblOgrenciler_TblKulupler" ManuallyRouted="false" />
+        <AssociationConnector Association="DbMvcProjeModel.FK_TblNotlar_TblOgrenciler" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
